@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+}
+video {
+    margin: auto;
+    display: block;
+}
+a p {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+}
+#container {
+    column-count: 3;
+    column-width: 300px;
+    column-gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+#container video,
+#container img {
+    display: block;
+    width: 300px;
+    margin: 0 auto 10px auto;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+}
